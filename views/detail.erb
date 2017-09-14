@@ -1,6 +1,5 @@
 <h2><%= "#{params[:k]}" %></h2>
 
-
 <h4>Add an album to your collection:</h4>
 <form action="/detail" method="post">
   <div class="form-group">
@@ -8,5 +7,9 @@
     <input name="title" type="text" class="form-control">
     <label for="date">Album release date:</label>
     <input name="date" type="text" class="form-control">
+    <label for="cover">Insert cover link:</label>
+    <input name="cover" type="link" class="form-control">
   </div>
   <button type="submit" name="btn">Add!</button>
+
+<% binding.pry %>

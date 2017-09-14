@@ -21,3 +21,13 @@ get('/detail/:k') do
   # @artist = Artist.find(params[:k])
   erb(:detail)
 end
+
+post('/detail/:k') do
+  title = params["title"]
+  release_date = params["date"]
+  cover = params["cover"]
+  erb(:detail)
+  album = Album.new(title, release_date, cover)
+  album.save()
+  erb(:detail)
+end
