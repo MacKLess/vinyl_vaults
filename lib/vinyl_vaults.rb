@@ -29,7 +29,7 @@ class List
   end
 
 
-# class Artist (:name, :album, :release_date)
-
-
+# class Artist (:name, :album)
+# album = []
+# class Album (:title, :release_date)
 end

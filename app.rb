@@ -11,9 +11,13 @@ get('/') do
 end
 
 get('/list') do
+  @artists_list = List.new
+  @artists_list = @artists_list.display_list
   erb(:list)
 end
 
-get('/detail') do
+get('/detail/:k') do
+  "You requested: #{params[:k]}"
+  # @artist = Artist.find(params[:k])
   erb(:detail)
 end

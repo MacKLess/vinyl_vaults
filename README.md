@@ -19,11 +19,11 @@ _This application allows the user to catalogue and organize their music collecti
 * _Program displays a list of artists along with their genre_
 * Example: The smiths, alternative rock
 * _User can click on artists' name and navigate to page about that artist with listed albums._
-* Example input: The smiths
-* Example output: The smiths: "The Queen is Dead"
+* Example input: The Smiths
+* Example output: The Smiths: "The Queen is Dead"
 * _User can add album names with release years to the list._
 * Example input: "Meat is Murder"
-* Example output: The smiths: The Queen is Dead", "Meat is Murder"
+* Example output: The Smiths: The Queen is Dead", "Meat is Murder"
 * _User can return to the mainpage._
 * Example input: return
 * Example output: The smiths, The Cure, U2, David Bowie
