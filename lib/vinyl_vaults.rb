@@ -10,29 +10,24 @@ class List
 
   def display_list
     @artists = {
-      "The Smiths" => "post_punk",
-      "REO Speedwagon" => "arena_rock",
-      "U2" => "college_rock",
-      "R.E.M." => "college_rock",
-      "Bon Jovi" => "hair_metal",
-      "Bruce Springsteen" => "heartland_rock",
-      "The Cure" => "post_punk",
-      "Duran Duran" => "new_wave",
-      "Queen" => "glam_rock",
+      "The Smiths" => "post punk",
+      "REO Speedwagon" => "arena rock",
+      "U2" => "college rock",
+      "R.E.M." => "college rock",
+      "Bon Jovi" => "hair metal",
+      "Bruce Springsteen" => "heartland rock",
+      "The Cure" => "post punk",
+      "Duran Duran" => "new wave",
+      "Queen" => "glam rock",
       "Michael Jackson" => "pop",
       "Cyndi Lauper" => "pop",
-      "Metallica" => "hard_rock",
+      "Metallica" => "hard rock",
       "The Pixies" => "alternative rock",
-      "Stevie Wonder" => "Contemporary_R&B",
-      "Beastie Boys" => "hip_hop"
+      "Stevie Wonder" => "contemporary R&B",
+      "Beastie Boys" => "hip hop"
     }
   end
 
-  def loop_list
-    @artists.each do |k,v|
-      puts k + ', ' + v
-    end
-  end
 
 # class Artist (:name, :album, :release_date)
 

@@ -1,4 +1,6 @@
 <h1>Your Music</h1>
 <h3>Here is your music collection. Click on an artist to go to the detail page for more information, including discography.</h3>
 
-  <%= @artists_list  %>
+  <% @artists_list.each do |k,v|  %>
+  <li><%=  k + ', ' + v%></li>
+  <% end %>
